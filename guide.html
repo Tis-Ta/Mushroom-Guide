@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="module" src="/js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js" defer></script>
   </head>
 
   <body>
@@ -19,7 +19,7 @@
 
     <header id="header">
       <div class="header-container wrapper wrapper--wide">
-        <img src="./assets/logo/fungi-finders.svg" alt="fungi-finders logo" height="32" width="157" loading="eager">
+        <img src="assets/logo/fungi-finders.svg" alt="fungi-finders logo" height="32" width="157" loading="eager">
 
         <button class="hamburger-btn" id="hamburger" aria-label="Toggle The Navigation Menu." aria-controls="navigation" aria-expanded="false">
           <span></span>
@@ -29,8 +29,8 @@
 
         <nav id="nav-bar">
           <ul class="nav-bar__list sub-heading" role="list">
-            <li><a href="./home.html">Discover</a></li>
-            <li><a href="./guide.html">Mushroom Guide</a></li>
+            <li><a href="index.html">Discover</a></li>
+            <li><a href="guide.html">Mushroom Guide</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
         </nav>
@@ -40,25 +40,25 @@
 
     <main>
       <section id="hero-s">
-      <div class="wrapper">
-        <h1 class="main-heading">Quick reference <span>Mushroom Guide</span></h1>
+        <div class="wrapper">
+          <h1 class="main-heading">Quick reference <span>Mushroom Guide</span></h1>
 
-        <div class="wrapper wrapper--narrow">
-          <p class="header-text">Discover a wide array of mushrooms from around the world, each with its own unique flavor profile and culinary uses.</p>
-          <p class="header-text">Whether you're looking for earthy porcinis, delicate chanterelles, or meaty shiitakes, our selection has something for every palate.</p>
-          <p class="header-text">Explore the diverse shapes, sizes, and colors of these fungi to elevate your dishes to new heights.</p>
+          <div class="wrapper wrapper--narrow">
+            <p class="header-text">Discover a wide array of mushrooms from around the world, each with its own unique flavor profile and culinary uses.</p>
+            <p class="header-text">Whether you're looking for earthy porcinis, delicate chanterelles, or meaty shiitakes, our selection has something for every palate.</p>
+            <p class="header-text">Explore the diverse shapes, sizes, and colors of these fungi to elevate your dishes to new heights.</p>
+          </div>
+
         </div>
-
-      </div>
-    </section>
+      </section>
 
       <section id="pg2-s1-where-to-look">
         <div class="section-main-content-container wrapper">
 
           <picture>
-            <source srcset="./assets/images/where-to-look-s.webp" media="(max-width: 600px)">
-            <source srcset="./assets/images/where-to-look-m.webp" media="(max-width: 1200px)">
-            <img src="./assets/images/where-to-look.jpg" width="475" height="600" decoding="async" loading="lazy" alt="A pale mushroom with a large split cap gorwing on the side of a mossy green tree in a forest.">
+            <source srcset="assets/images/where-to-look-s.webp" media="(max-width: 600px)">
+            <source srcset="assets/images/where-to-look-m.webp" media="(max-width: 1200px)">
+            <img src="assets/images/where-to-look.jpg" width="475" height="600" decoding="async" loading="lazy" alt="A pale mushroom with a large split cap gorwing on the side of a mossy green tree in a forest.">
           </picture>
 
           <div class="section-main-content__text">
@@ -267,20 +267,20 @@
         </div>
       </section>
 
-      <section id="pg2-s3-bento">
+      <section id="faq" class="pg2-s3-bento">
         <div class="wrapper wrapper--wide">
 
           <h2 class="sub-heading sub-heading--pg2-s3">Frequently Asked Questions</h2>
 
           <div class="bento-grid-container">
             <div class="bento-grid-card">
-              <img src="./assets/images/start-foraging.webp" width="380" height="200" decoding="async" loading="lazy" alt="A wicker basket with a small variety of freshly harvested mushrooms.">
+              <img src="assets/images/start-foraging.webp" width="380" height="200" decoding="async" loading="lazy" alt="A wicker basket with a small variety of freshly harvested mushrooms.">
               <h3 class="card-heading">What do I need to start mushroom foraging?</h3>
               <p class="card-text">You'll need a local field guide, a sharp knife or scissors, a basket or mesh bag for collecting, and paper bags for separating specimens. Bring a small brush for cleaning, wear sturdy boots, and carry a GPS device or compass to track your location. A camera is also helpful to document your finds.</p>
             </div>
 
             <div class="bento-grid-card">
-              <img src="./assets/images/identify-mushrooms.webp" width="380" height="200" decoding="async" loading="lazy" alt="A mushroom with a white stem and red cap sitting on top of an article with an image of the same mushroom and a small description of it.">
+              <img src="assets/images/identify-mushrooms.webp" width="380" height="200" decoding="async" loading="lazy" alt="A mushroom with a white stem and red cap sitting on top of an article with an image of the same mushroom and a small description of it.">
               <h3 class="card-heading">How can I identify edible mushrooms?</h3>
               <p class="card-text">Learn from experienced foragers and reliable guidebooks - never rely on apps alone. Study each mushroom's specific features like cap shape, gill structure, stem characteristics, and spore prints. Start with easily identifiable species that have no poisonous lookalikes, and never eat anything unless you're completely certain of its identification.</p>
             </div>
@@ -288,7 +288,7 @@
             <div class="bento-grid-card bento-grid-card__third-card-container">
 
               <div class="third-card-image">
-                <img src="./assets/images/where-to-find.webp" width="300" height="240" decoding="async" loading="lazy" alt=" A small mushroom with a white stem and bright red cap, partly hidden under fallen wet autumn leaves">
+                <img src="assets/images/where-to-find.webp" width="300" height="240" decoding="async" loading="lazy" alt=" A small mushroom with a white stem and bright red cap, partly hidden under fallen wet autumn leaves">
               </div>
 
               <div class="third-card-container__text">
@@ -299,7 +299,7 @@
             </div>
 
             <div class="bento-grid-card">
-              <img src="./assets/images/bg-intro-image-l.jpg" width="404" height="548" decoding="async" loading="lazy" alt="A mushroom with a white stem, a bright red cap with small white dots on it, growing in a field of autumn leaves">
+              <img src="assets/images/bg-intro-image-l.jpg" width="404" height="548" decoding="async" loading="lazy" alt="A mushroom with a white stem, a bright red cap with small white dots on it, growing in a field of autumn leaves">
               <h3 class="card-heading">What are the best seasons for mushroom foraging?</h3>
               <p class="card-text">Spring is ideal for morels, late summer brings chanterelles and boletes, and fall is peak season for most mushrooms including oysters and hen of the woods. Some species can even be found in winter, especially in milder climates. Each season offers different varieties, so year-round foraging is possible.</p>
             </div>
